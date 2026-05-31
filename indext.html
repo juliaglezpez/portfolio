@@ -18,6 +18,102 @@
     <script src="js/script.js" defer></script>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark portfolio__navbar">
+        <div class="container-fluid">
+          <a href="indext.html" class="navbar-brand portfolio__navbar-logo">
+            <img src="img/logos/monograma_blanco.svg" alt="Logo JGP" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#portfolioMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="portfolioMenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link"> About </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#archive" class="nav-link"> Archive </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#contact" class="nav-link"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="hero__watermark">
+          <img src="img/logos/monograma.svg" alt="" aria-hidden="true" />
+        </div>
+        <div class="col-12 col-lg-7 hero__info">
+          <div class="hero__header">
+            <div class="hero__main">
+              <p class="hero__label">Portfolio</p>
+
+              <h1 class="hero__title">ARC_01</h1>
+
+              <div class="hero__description">
+                <p>
+                  Archivo integral de diseño
+                  <br />
+                  Julia González Pérez
+                </p>
+              </div>
+              <p class="hero__explore">Explora el archivo →</p>
+            </div>
+
+            <div class="hero__metadata">
+              <div>
+                <span>Categorías</span>
+
+                <p>Interior</p>
+                <p>Gráfico</p>
+                <p>Producto</p>
+              </div>
+
+              <div>
+                <span>Ubicación</span>
+
+                <p>Madrid, ES</p>
+              </div>
+
+              <div>
+                <span>Año</span>
+
+                <p>2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5 hero__visual">
+          <div class="hero__folder">
+            <img
+              src="img/logos/SVG/folder_amarilla.svg"
+              alt="Archivo de proyectos"
+            />
+          </div>
+
+          <div class="hero__cta">
+            <a href="grafico.html"> Ver proyectos gráficos </a>
+
+            <a href="producto.html"> Ver proyectos de producto </a>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -23,7 +23,7 @@
   --typo-texto: "JetBrains Mono", monospace;
 
   /*TAMAÑOS DE FUENTE*/
-  --tf-hero: 5rem;
+  --tf-hero: 18rem;
   --tf-titulo: 3rem;
   --tf-subtitulo: 2rem;
   --tf-apartado: 1.5rem;
@@ -31,7 +31,7 @@
   --tf-detalle: 0.85rem;
 
   /*LINE HEIGHT*/
-  --lh-titulo: 0.9;
+  --lh-titulo: 1;
   --lh-body: 1.6;
 
   /*==============

@@ -1,0 +1,23 @@
+/*=================
+     NAVBAR
+================*/
+
+.portfolio__navbar {
+  background-color: var(--color-oscuro);
+  padding: var(--pm-m) var(--pm-xl);
+}
+
+.portfolio__navbar-logo img {
+  width: 60px;
+  height: auto;
+  display: block;
+}
+
+.nav-link {
+  font-family: var(--typo-texto);
+  color: var(--color-fondo);
+  font-size: var(--tf-texto);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: var(--animacion);
+}
