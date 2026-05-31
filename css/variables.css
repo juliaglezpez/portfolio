@@ -1,0 +1,59 @@
+/*============
+  VARIABLES
+============*/
+
+:root {
+  /*============
+  COLORES
+============*/
+  --color-fondo: #f3f3f1;
+  --color-oscuro: #2c2d2d;
+
+  --color-acento: #f2921d;
+  --color-grafico: #14488c;
+  --color-interiores: #07532c;
+  --color-producto: #bf2121;
+
+  /*============
+  TIPOGRAFÍA
+============*/
+
+  /*ESTILOS*/
+  --typo-titulo: "Special Gothic Condensed One", sans-serif;
+  --typo-texto: "JetBrains Mono", monospace;
+
+  /*TAMAÑOS DE FUENTE*/
+  --tf-hero: 5rem;
+  --tf-titulo: 3rem;
+  --tf-subtitulo: 2rem;
+  --tf-apartado: 1.5rem;
+  --tf-texto: 1rem;
+  --tf-detalle: 0.85rem;
+
+  /*LINE HEIGHT*/
+  --lh-titulo: 0.9;
+  --lh-body: 1.6;
+
+  /*==============
+     LAYOUT
+==============*/
+  --grid-gap: 1rem;
+
+  /*PADDING | MARGIN*/
+  --pm-s: 0.5rem;
+  --pm-m: 1rem;
+  --pm-l: 2rem;
+  --pm-xl: 4rem;
+  --pm-2xl: 6rem;
+
+  /*==============
+    BORDES
+==============*/
+  --radius: 15px;
+  --border: 2px solid var(--color-oscuro);
+
+  /*==============
+   ANIMACIONES
+==============*/
+  --animacion: 0.3s ease;
+}
