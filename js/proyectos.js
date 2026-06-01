@@ -75,3 +75,20 @@ function renderizarProyectos(lista) {
   });
 }
 renderizarProyectos(proyectos);
+
+const botonesFiltro = document.querySelectorAll(".filtro");
+botonesFiltro.forEach(function (boton) {
+  boton.addEventListener("click", function () {
+    const filtro = boton.dataset.filtro;
+
+    if (filtro === "todos") {
+      renderizarProyectos(proyectos);
+    } else {
+      const proyectosFiltrados = proyectos.filter(function (proyecto) {
+        return proyecto.categoria === filtro;
+      });
+
+      renderizarProyectos(proyectosFiltrados);
+    }
+  });
+});
