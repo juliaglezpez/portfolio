@@ -204,3 +204,52 @@
   background-color: var(--color-oscuro);
   color: var(--color-fondo);
 }
+
+/*ADAPTACIÓN A OTRAS PÁGINAS*/
+.categoria__grafico .categoria__enfoque {
+  background-color: var(--color-grafico);
+}
+
+.categoria__producto .categoria__enfoque {
+  background-color: var(--color-producto);
+}
+
+.categoria__interiores .categoria__enfoque {
+  background-color: var(--color-interiores);
+}
+
+.categoria__grafico .proyecto__tarjeta {
+  background-color: var(--color-grafico);
+}
+
+.categoria__producto .proyecto__tarjeta {
+  background-color: var(--color-producto);
+}
+
+.categoria__interiores .proyecto__tarjeta {
+  background-color: var(--color-interiores);
+}
+
+.categoria__grafico .categoria__nav-btn.activo {
+  background-color: var(--color-grafico);
+}
+
+.categoria__producto .categoria__nav-btn.activo {
+  background-color: var(--color-producto);
+}
+
+.categoria__interiores .categoria__nav-btn.activo {
+  background-color: var(--color-interiores);
+}
+
+.categoria__grafico .filtro.activo {
+  background-color: var(--color-grafico);
+}
+
+.categoria__producto .filtro.activo {
+  background-color: var(--color-producto);
+}
+
+.categoria__interiores .filtro.activo {
+  background-color: var(--color-interiores);
+}

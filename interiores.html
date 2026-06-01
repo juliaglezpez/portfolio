@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <script src="js/proyectos.js" defer></script>
+    <script src="js/proyectos-interiores.js" defer></script>
   </head>
   <body>
     <header>
@@ -52,7 +52,113 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="categoria__interiores">
+      <section class="categoria__hero">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+              <div class="categoria__contenido">
+                <p class="categoria__etiqueta">CATEGORÍA</p>
+
+                <h1 class="categoria__titulo">
+                  INTERIORES
+                  <br />
+                  ARCHIVE
+                </h1>
+
+                <div class="categoria__metadatos">
+                  <div class="categoria__dato">
+                    <span>DISCIPLINA</span>
+                    <p>Diseño de interiores</p>
+                  </div>
+
+                  <div class="categoria__dato">
+                    <span>ENFOQUE</span>
+                    <p>
+                      Espacios, atmósferas
+                      <br />
+                      y experiencia del usuario
+                    </p>
+                  </div>
+
+                  <div class="categoria__dato">
+                    <span>UBICACIÓN</span>
+                    <p>Madrid, ES</p>
+                  </div>
+
+                  <div class="categoria__dato">
+                    <span>AÑO</span>
+                    <p>2026</p>
+                  </div>
+                </div>
+
+                <div class="categoria__filtros">
+                  <button class="categoria__tag">Residencial</button>
+
+                  <button class="categoria__tag">Comercial</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="categoria__imagen">
+                <img
+                  src="img/hero/hero-interiores.webp"
+                  alt="Proyecto destacado"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categoria__enfoque">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+              <div class="categoria__enfoque-contenido">
+                <p class="categoria__enfoque-texto">
+                  Entiendo el espacio como una herramienta capaz de transformar
+                  la forma en que vivimos, trabajamos y nos relacionamos. Busco
+                  crear entornos funcionales, flexibles y con identidad propia.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="categoria__enfoque-logo">
+                <img src="img/logos/monograma_verde.svg" alt="Monograma" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categoria__archivo">
+        <div class="categoria__filtros">
+          <button class="filtro activo" data-filtro="todos">Todos</button>
+          <button class="filtro" data-filtro="residencial">Residencial</button>
+          <button class="filtro" data-filtro="comercial">Comercial</button>
+        </div>
+
+        <div id="galeria" class="row g-3"></div>
+      </section>
+      <section class="categoria__navegacion">
+        <div class="container-fluid">
+          <p class="categoria__navegacion-etiqueta">
+            EXPLORAR OTRAS DISCIPLINAS
+          </p>
+
+          <div class="categoria__navegacion-botones">
+            <a href="grafico.html" class="categoria__nav-btn"> Gráfico </a>
+
+            <a href="producto.html" class="categoria__nav-btn"> Producto </a>
+
+            <a href="interiores.html" class="categoria__nav-btn activo">
+              Interiores
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="footer">
         <div class="footer__marca">
