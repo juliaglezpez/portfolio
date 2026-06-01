@@ -7,6 +7,8 @@
 @import url("componentes/footer.css");
 @import url("componentes/navbar.css");
 
+@import url("categorias.css");
+
 body {
   background-color: var(--color-fondo);
   overflow-x: hidden;
@@ -360,57 +362,4 @@ body {
   background: transparent;
   padding: 1rem 2rem;
   font-family: var(--typo-texto);
-}
-
-/* FOOTER */
-
-.footer {
-  padding: var(--pm-l) var(--pm-xl);
-  background-color: var(--color-oscuro);
-}
-
-.footer__contenido {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.footer__marca {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--pm-m);
-}
-
-.footer__marca img {
-  width: 70px;
-  height: auto;
-}
-
-.footer__texto {
-  font-family: var(--typo-texto);
-  color: var(--color-fondo);
-}
-
-.footer__nombre {
-  margin: 0;
-  text-transform: uppercase;
-  color: var(--color-fondo);
-}
-
-.footer__descripcion {
-  margin: 0;
-  font-size: var(--tf-detalle);
-  text-transform: uppercase;
-  color: var(--color-fondo);
-}
-
-.footer__legal {
-  text-align: right;
-  font-family: var(--typo-texto);
-  font-size: var(--tf-detalle);
-  color: var(--color-fondo);
-}
-
-.footer__legal p {
-  margin: 0;
 }
