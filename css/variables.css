@@ -52,6 +52,7 @@
 ==============*/
   --radius: 15px;
   --border: 2px solid var(--color-oscuro);
+  --border-claro: 2px solid var(--color-fondo);
 
   /*==============
    ANIMACIONES
