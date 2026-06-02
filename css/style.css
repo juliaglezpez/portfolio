@@ -8,6 +8,7 @@
 @import url("componentes/navbar.css");
 
 @import url("categorias.css");
+@import url("proyectos.css");
 
 body {
   background-color: var(--color-fondo);

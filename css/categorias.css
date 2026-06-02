@@ -140,7 +140,6 @@
 
 .proyecto__titulo {
   font-family: var(--typo-titulo);
-  font-size: 5rem;
   line-height: 0.9;
   text-transform: uppercase;
   margin-bottom: var(--pm-xl);
