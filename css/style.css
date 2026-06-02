@@ -2,8 +2,6 @@
 @import url("variables.css");
 
 /*COMPONENTES*/
-@import url("componentes/botones.css");
-@import url("componentes/card.css");
 @import url("componentes/footer.css");
 @import url("componentes/navbar.css");
 

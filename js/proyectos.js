@@ -11,7 +11,7 @@ const proyectos = [
     titulo: "Camden Rats Sessions",
     categoria: "carteleria",
     imagen: "img/cards/candem_rats.png",
-    pagina: "camden-rats.html",
+    pagina: "candem-rats.html",
   },
 ];
 
