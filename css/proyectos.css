@@ -192,3 +192,41 @@
   width: 80px;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  .proyecto__hero,
+  .proyecto__info,
+  .proyecto__galeria,
+  .proyecto__navegacion {
+    padding: var(--pm-m);
+  }
+
+  .proyecto__titulo {
+    font-size: clamp(3rem, 14vw, 5rem);
+
+    margin-bottom: var(--pm-l);
+
+    padding-bottom: var(--pm-m);
+  }
+
+  .proyecto__metadatos {
+    grid-template-columns: 1fr;
+
+    gap: var(--pm-m);
+  }
+
+  .proyecto__texto {
+    font-size: 1rem;
+
+    line-height: 1.6;
+  }
+
+  .proyecto__imagen--grande,
+  .proyecto__imagen--vertical {
+    min-height: 300px;
+  }
+
+  .proyecto__nav-logo {
+    width: 50px;
+  }
+}

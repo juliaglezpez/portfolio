@@ -306,6 +306,12 @@ body {
   background-color: var(--color-oscuro);
 }
 
+.contacto__info,
+.contacto__texto {
+  width: 100%;
+  max-width: 100%;
+}
+
 .contacto__marco {
   background-color: var(--color-acento);
   border-radius: var(--radius);
@@ -361,4 +367,33 @@ body {
   background: transparent;
   padding: 1rem 2rem;
   font-family: var(--typo-texto);
+}
+
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+  /*HERO*/
+  .hero__info,
+  .hero__visual,
+  .about,
+  .proyectos,
+  .contacto {
+    padding: var(--pm-m);
+  }
+
+  .hero__header {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__title {
+    font-size: clamp(4rem, 20vw, 7rem);
+  }
+
+  .hero__watermark {
+    display: none;
+  }
+
+  /*CONTACTO*/
+  .contact-contenido {
+    padding: var(--pm-s);
+  }
 }

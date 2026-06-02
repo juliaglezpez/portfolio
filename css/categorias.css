@@ -143,6 +143,8 @@
   line-height: 0.9;
   text-transform: uppercase;
   margin-bottom: var(--pm-xl);
+
+  font-size: var(--tf-titulo);
 }
 
 .proyecto__enlace {
@@ -251,4 +253,79 @@
 
 .categoria__interiores .filtro.activo {
   background-color: var(--color-interiores);
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px) {
+  /* SECCIONES */
+
+  .categoria__hero,
+  .categoria__archivo,
+  .categoria__navegacion {
+    padding: var(--pm-m);
+  }
+
+  /* HERO */
+
+  .categoria__contenido {
+    padding-right: 0;
+    margin-bottom: var(--pm-l);
+  }
+
+  .categoria__titulo {
+    font-size: clamp(4rem, 15vw, 10rem);
+    margin-bottom: var(--pm-l);
+    padding-bottom: var(--pm-m);
+  }
+
+  .categoria__metadatos {
+    grid-template-columns: 1fr;
+    gap: var(--pm-m);
+  }
+
+  /* ENFOQUE */
+
+  .categoria__enfoque {
+    margin: 0 var(--pm-m);
+  }
+
+  .categoria__enfoque-logo {
+    justify-content: center;
+    margin-top: var(--pm-l);
+  }
+
+  .categoria__enfoque-logo img {
+    width: 40%;
+  }
+
+  /* TARJETAS */
+
+  .proyecto__tarjeta {
+    min-height: auto;
+  }
+
+  .proyecto__tarjeta .row {
+    flex-direction: column;
+  }
+
+  .proyecto__contenido {
+    width: 100%;
+    padding: var(--pm-m);
+  }
+
+  .proyecto__titulo {
+    font-size: clamp(2rem, 10vw, 3rem);
+    margin-bottom: var(--pm-m);
+  }
+
+  .proyecto__categoria {
+    margin-bottom: var(--pm-s);
+  }
+
+  .proyecto__imagen {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
 }

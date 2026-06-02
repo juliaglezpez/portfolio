@@ -24,7 +24,7 @@
 
   /*TAMAÑOS DE FUENTE*/
   --tf-hero: 25rem;
-  --tf-categoria: 14rem;
+  --tf-categoria: clamp(3rem, 14vw, 14rem);
   --tf-proyectos: 10rem;
   --tf-titulo: 3rem;
   --tf-subtitulo: 2rem;
